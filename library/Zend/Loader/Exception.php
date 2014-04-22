@@ -22,7 +22,7 @@
 /**
  * @see Zend_Exception
  */
-require_once 'Zend/Exception.php';
+require_once dirname(__FILE__) . '/../Exception.php';
 
 /**
  * @category   Zend
